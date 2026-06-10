@@ -1,0 +1,1 @@
+openroad -exit -no_splash -metrics /mnt/d/open_source_asic_flow/runs/RUN_2026-06-10_20-24-10/32-openroad-repairdesignpostgpl/or_metrics_out.json /nix/store/1w3x9nqi5r9klp1gj3r8yh66vvf8bfpf-python3-3.13.9-env/lib/python3.13/site-packages/librelane/scripts/openroad/repair_design.tcl

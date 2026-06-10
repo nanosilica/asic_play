@@ -1,0 +1,9 @@
+{
+    "json_h": "/mnt/d/open_source_asic_flow/runs/RUN_2026-06-10_20-24-10/05-yosys-jsonheader/my_design.h.json",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 0,
+        "design__inferred_latch__count": 0
+    }
+}

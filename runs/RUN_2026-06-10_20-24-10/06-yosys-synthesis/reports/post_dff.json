@@ -1,0 +1,45 @@
+{
+   "creator": "Yosys 0.62 (git sha1 7326bb7d6641500ecb285c291a54a662cb1e76cf, clang++ 21.1.2 -fPIC -O3)",
+   "invocation": "stat -json -liberty /mnt/d/open_source_asic_flow/runs/RUN_2026-06-10_20-24-10/tmp/39e499a4052246c9b8df229b8a15d868.lib ",
+   "modules": {
+      "\\my_design": {
+         "num_wires":         5,
+         "num_wire_bits":     5,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "num_submodules":       0,
+         "area":              26.275200,
+         "sequential_area":    26.275200,
+         "num_cells_by_type": {
+            "$_NOT_": 1,
+            "sky130_fd_sc_hd__dfrtp_2": 1
+         }
+      }
+   },
+      "design": {
+         "num_wires":         5,
+         "num_wire_bits":     5,
+         "num_pub_wires":     4,
+         "num_pub_wire_bits": 4,
+         "num_ports":         4,
+         "num_port_bits":     4,
+         "num_memories":      0,
+         "num_memory_bits":   0,
+         "num_processes":     0,
+         "num_cells":         2,
+         "num_submodules":       0,
+         "area":              26.275200,
+         "sequential_area":    26.275200,
+         "num_cells_by_type": {
+            "$_NOT_": 1,
+            "sky130_fd_sc_hd__dfrtp_2": 1
+         }
+      }
+}
+

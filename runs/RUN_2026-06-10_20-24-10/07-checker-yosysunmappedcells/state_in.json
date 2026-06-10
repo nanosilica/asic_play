@@ -1,0 +1,14 @@
+{
+    "json_h": "/mnt/d/open_source_asic_flow/runs/RUN_2026-06-10_20-24-10/05-yosys-jsonheader/my_design.h.json",
+    "nl": "/mnt/d/open_source_asic_flow/runs/RUN_2026-06-10_20-24-10/06-yosys-synthesis/my_design.nl.v",
+    "metrics": {
+        "design__lint_error__count": 0,
+        "design__lint_timing_construct__count": 0,
+        "design__lint_warning__count": 0,
+        "design__inferred_latch__count": 0,
+        "design__instance__count": 2,
+        "design__instance__area": 30.0288,
+        "design__instance_unmapped__count": 0,
+        "synthesis__check_error__count": 0
+    }
+}

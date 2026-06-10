@@ -1,0 +1,56 @@
+(DELAYFILE
+ (SDFVERSION "3.0")
+ (DESIGN "my_design")
+ (DATE "Wed Jun 10 20:24:16 2026")
+ (VENDOR "Parallax")
+ (PROGRAM "STA")
+ (VERSION "2.7.0")
+ (DIVIDER .)
+ (VOLTAGE 1.950::1.950)
+ (PROCESS "1.000::1.000")
+ (TEMPERATURE -40.000::-40.000)
+ (TIMESCALE 1ns)
+ (CELL
+  (CELLTYPE "my_design")
+  (INSTANCE)
+  (DELAY
+   (ABSOLUTE
+    (INTERCONNECT clk _2_.CLK (0.005:0.005:0.005) (0.001:0.001:0.001))
+    (INTERCONNECT rst _1_.A (0.012:0.012:0.012) (0.004:0.004:0.004))
+    (INTERCONNECT in _2_.D (0.005:0.005:0.005) (0.002:0.002:0.002))
+    (INTERCONNECT _1_.Y _2_.RESET_B (0.000:0.000:0.000))
+    (INTERCONNECT _2_.Q out (0.000:0.000:0.000))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__inv_2")
+  (INSTANCE _1_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH A Y (0.020:0.020:0.020) (0.015:0.015:0.015))
+   )
+  )
+ )
+ (CELL
+  (CELLTYPE "sky130_fd_sc_hd__dfrtp_2")
+  (INSTANCE _2_)
+  (DELAY
+   (ABSOLUTE
+    (IOPATH CLK Q (0.318:0.318:0.318) (0.325:0.325:0.325))
+    (IOPATH RESET_B Q () (0.000:0.000:0.000))
+   )
+  )
+  (TIMINGCHECK
+    (REMOVAL (posedge RESET_B) (posedge CLK) (0.210:0.210:0.210))
+    (RECOVERY (posedge RESET_B) (posedge CLK) (-0.155:-0.155:-0.155))
+    (HOLD (posedge D) (posedge CLK) (-0.015:-0.015:-0.015))
+    (HOLD (negedge D) (posedge CLK) (-0.009:-0.009:-0.009))
+    (SETUP (posedge D) (posedge CLK) (0.030:0.030:0.030))
+    (SETUP (negedge D) (posedge CLK) (0.052:0.052:0.052))
+    (WIDTH (posedge CLK) (0.293:0.293:0.293))
+    (WIDTH (negedge CLK) (0.309:0.309:0.309))
+    (WIDTH (negedge RESET_B) (0.190:0.190:0.190))
+  )
+ )
+)

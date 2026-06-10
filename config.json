@@ -4,5 +4,9 @@
     "VERILOG_FILES": ["dir::src/my_design.v"],
     "CLOCK_PORT": "clk",
     "CLOCK_PERIOD": 10,
-    "DESIGN_IS_CORE": true
+    "DESIGN_IS_CORE": true,
+    "FP_CORE_UTIL": 5,
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 50 50",
+    "CORE_AREA": "10 10 40 40"
 }
