@@ -1,0 +1,8 @@
+{
+    "PDK": "sky130A",
+    "DESIGN_NAME": "my_design",
+    "VERILOG_FILES": ["dir::src/my_design.v"],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10,
+    "DESIGN_IS_CORE": true
+}
