@@ -39,3 +39,7 @@ Every push to `main` will:
 1. Compile and simulate the testbench with Icarus Verilog
 2. If simulation passes, run the full LibreLane hardening flow
 3. Upload the resulting GDS as a build artifact
+
+Example GDS:
+
+<img width="1126" height="912" alt="image" src="https://github.com/user-attachments/assets/f29bf64a-1c27-4031-96ed-d94d33115bfc" />
